@@ -1,3 +1,7 @@
+**NOTICE**
+
+This image is now deprecated and will no longer be maintained - 14/02/2023
+
 **Application**
 
 [rTorrent-ps](https://github.com/pyroscope/rtorrent-ps)<br/>
