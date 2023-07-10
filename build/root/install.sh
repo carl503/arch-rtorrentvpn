@@ -113,7 +113,8 @@ mkdir -p "/home/nobody/bin"
 # for pycore torque utility
 # note we also require gcc to compile python module psutil
 pacman -S --needed gcc --noconfirm
-/opt/pyrocore/bin/pip install --ignore-installed -r "/opt/pyrocore/requirements-torque.txt"
+ls -la /opt/pyrocore
+pip install --ignore-installed -r "/opt/pyrocore/requirements-torque.txt"
 
 # github master branch - autodl-irssi
 ####
