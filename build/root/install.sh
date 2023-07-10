@@ -89,6 +89,8 @@ pacman -U "/tmp/${package_name}" --noconfirm
 # github release - rutorrent
 ####
 
+set +e
+
 # download rutorrent
 github.sh --install-path "/usr/share/webapps/rutorrent" --github-owner "Novik" --github-repo "ruTorrent" --query-type "branch" --download-branch "master"
 
